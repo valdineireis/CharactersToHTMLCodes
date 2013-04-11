@@ -5,6 +5,7 @@ import java.util.Map;
 
 /**
  * Class responsible for converting characters
+ * List of characters http://www.w3schools.com/tags/ref_entities.asp
  * @author Valdinei Reis
  * @since 11, April of 2013
  *

@@ -28,5 +28,25 @@ public class ConvertTest {
 	public void deveriaRetornarFriendlyCodeACircMaiuscula() {
 		assertEquals("&Acirc;", convert.toHtmlFriendlyCode("Â"));
 	}
+	
+	@Test
+	public void deveriaRetornarFriendlyCodeAtildeMaiuscula() {
+		assertEquals("&Atilde;", convert.toHtmlFriendlyCode("Ã"));
+	}
+	
+	@Test
+	public void deveriaRetornarFriendlyCodeAumlMaiuscula() {
+		assertEquals("&Auml;", convert.toHtmlFriendlyCode("Ä"));
+	}
+	
+	@Test
+	public void deveriaRetornarFriendlyCodeAringMaiuscula() {
+		assertEquals("&Aring;", convert.toHtmlFriendlyCode("Å"));
+	}
+	
+	@Test
+	public void deveriaRetornarFriendlyCodeAEligMaiuscula() {
+		assertEquals("&AElig;", convert.toHtmlFriendlyCode("Æ"));
+	}
 
 }
