@@ -3,6 +3,12 @@ package br.com.tropicaltec.html;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Class responsible for converting characters
+ * @author Valdinei Reis
+ * @since 11, April of 2013
+ *
+ */
 public class Convert {
 
 	private String getFriendlyCode(Character code) {
