@@ -48,5 +48,10 @@ public class ConvertTest {
 	public void deveriaRetornarFriendlyCodeAEligMaiuscula() {
 		assertEquals("&AElig;", convert.toHtmlFriendlyCode("Æ"));
 	}
+	
+	@Test
+	public void deveriaRetornarFraseComCaracteresEspeciaisSubstituidos() {
+		assertEquals("C&oacute;digo Java, substitui&ccedil;&atilde;o de caracteres.", convert.toHtmlFriendlyCode("Código Java, substituição de caracteres."));
+	}
 
 }
